@@ -1,0 +1,433 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.Caja{
+    width: 940px;
+    position: relative;
+    margin:  auto;
+
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 80px;
+}
+nav li{
+    display: inline;
+    margin: 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: slateblue;
+    text-decoration: underline;
+
+}
+
+
+footer{
+    text-align: center;
+    background: url(.//imagenes/bg.jpg);
+    padding: 40px;
+    
+
+}
+.copy{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.INDICE{
+    color: black;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+.imagenPlacaMadre{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenBus{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenProcesadores{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenMemoria{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenPuertos{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenAlmacenamiento{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenBios{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenComunicación{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenControladores{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenDisco{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenDispositivo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagenFirmware{
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.titulo-pcHistoria{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+
+.pcHistoria{
+    width: 160px;
+    float:left;
+    margin: 0 40px 40px 0;
+}
+
+.titulo-clasificacion{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+
+.titulo-comparativo{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.titulo-pipeline{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.Titulo-AMD{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Titulo-ARM{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Titulo-Harvard{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Titulo-Intel{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Titulo-PowerPC{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Titulo-SOA{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Titulo-SPARC{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Titulo-VonNeumanem{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+.Titulo-PlacaMadre{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Titulo-Conclusiones{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Conclusiones p{
+    text-align: center;
+    margin: 2em 0 1em;
+}
+
+.SegundoParcial{
+    text-align: center;
+    font-size: 4em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+.BusDeDatos{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Procesadores{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Memoria{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Puertos{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Almacenamiento{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Bios{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Comunicación{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Controladores{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Disco{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Dispositivos{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.Firmware{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+    clear: left;
+}
+
+.video-Comparativo{
+    width: 600px;
+    margin: 5em auto;
+}
+
+.video-clasificacion{
+    width: 600px;
+    margin: 5em auto;
+}
+
+
+
+form{
+    margin: 40px 0;
+}
+
+form label,form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: orangered;
+    transform: scale(1.2);
+    rotate: 360deg;
+}
+table{
+    margin: 40px 40px;
+}
+thead{
+    background-color: gray;
+    color: aliceblue;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/*css para la pagina principal*/
+
+#banner{
+    width: 100%;
+    
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+
+.utensilios{
+    width: 160px;
+    float:left;
+    margin: 0 40px 40px 0;
+    
+}
+.mapa{
+    padding: 3em 0;
+   
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.items{
+    line-height: 1.5;
+}
+
+.imagen-diferenciales{
+    width: 60%;
+}
+.video{
+    width: 600px;
+    margin: 3em auto;
+}
